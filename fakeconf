@@ -1,0 +1,21 @@
+[TRACKERS]
+jira="NCP-\d{3,5}"
+redmine="RM[ #]?\d{3,5}"
+
+[TRACKER_URLS]
+jira="https://jira.rax.io/browse/"
+redmine="https://redmine.ohthree.com/issues/"
+
+[TAGS]
+shared_ip="shared[_ ]ips?"
+
+[NEWCOLUMNS]
+trackers="Listing of issue trackers detected in commit"
+tags="Listing of configured strings to highlight"
+
+[GITCOLUMNS]
+sha="%H"
+description="%s"
+author="%an"
+email="%ae"
+commit_date="%cd"
