@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# Copyright 2015 Rackspace
+# Copyright 2015 Justin Hammond
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -20,6 +20,8 @@ from setuptools import setup
 required_packages = [
     "click",
     "configobj",
+    "flask",
+    "gitpython",
 ]
 
 optional_packages = {}
@@ -37,6 +39,7 @@ setup(
     entry_points='''
         [console_scripts]
         headsup = headsup.executable:run_headsup
+        headsup_service = headsup.executable:run_as_service
     '''
     )
 

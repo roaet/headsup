@@ -19,3 +19,7 @@ description="%s"
 author="%an"
 email="%ae"
 commit_date="%cd"
+
+[REPOS]
+quark = git@github.com:rackerlabs/quark
+internal_quark = git@github.rackspace.com:O3Eng/quark
